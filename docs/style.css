@@ -1,0 +1,7 @@
+/* Donatello */
+.Donatello-bg {
+    background-image: url('pics/Donatello-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} 
