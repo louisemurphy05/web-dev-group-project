@@ -5,3 +5,32 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 } 
+
+.Leonardo-bg {
+    background-image: url('pics/Leonardo-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Michelangelo-bg {
+    background-image: url('pics/Michelangelo-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Raphael-bg {
+    background-image: url('pics/Raphael-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.MainPage-style{
+    background-color:#00962ba2;
+    color:#3f644a40;
+    font-family: redonda-condensed, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+}
