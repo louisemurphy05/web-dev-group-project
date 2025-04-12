@@ -6,6 +6,8 @@
     background-attachment: fixed;
 } 
 
+
+/* Leonardo */
 .Leonardo-bg {
     background-image: url('pics/Leonardo-bg.jpg');
     background-size: cover;
@@ -13,6 +15,8 @@
     background-attachment: fixed;
 }
 
+
+/* Michelangelo */
 .Michelangelo-bg {
     background-image: url('pics/Michelangelo-bg.jpg');
     background-size: cover;
@@ -20,6 +24,8 @@
     background-attachment: fixed;
 }
 
+
+/* Raphael */
 .Raphael-bg {
     background-image: url('pics/Raphael-bg.jpg');
     background-size: cover;
@@ -33,6 +39,12 @@
     font-size: 3rem;
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
 }
+
+
+/* Homepage */
 .Main-bg {
-    background-color: #B1B77B;
+    background-image: url('pics/Homepage-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
