@@ -27,10 +27,9 @@
     background-attachment: fixed;
 }
 
-.MainPage-style{
-    background-color:#00962ba2;
-    color:#3f644a40;
-    font-family: redonda-condensed, sans-serif;
-    font-style: normal;
-    font-weight: 900;
+.Main-bg {
+    background-image: url('pics/All.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
