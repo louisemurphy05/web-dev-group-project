@@ -27,9 +27,12 @@
     background-attachment: fixed;
 }
 
+.Raphael-text{
+    color: rgb(159, 15, 15); 
+    font-family: 'Metal Mania'; 
+    font-size: 3rem;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
+}
 .Main-bg {
-    background-image: url('pics/All.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #B1B77B;
 }
