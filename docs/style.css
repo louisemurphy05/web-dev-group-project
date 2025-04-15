@@ -8,7 +8,7 @@
 
 .Donatello-text{
     color: rgb(72, 28, 122); 
-
+    font-family: 'Bungee Inline';
     font-size: 3rem;
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
 }
@@ -23,7 +23,7 @@
 
 .Leonardo-text{
     color: rgb(47, 0, 255); 
-
+    /* Font family goes here */
     font-size: 3rem;
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
 }
@@ -38,7 +38,7 @@
 
 .Michelangelo-text{
     color: rgb(255, 124, 2); 
-
+    /* Font family goes here */
     font-size: 3rem;
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
 }
