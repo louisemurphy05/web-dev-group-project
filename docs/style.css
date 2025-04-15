@@ -6,6 +6,12 @@
     background-attachment: fixed;
 } 
 
+.Donatello-text{
+    color: rgb(72, 28, 122); 
+
+    font-size: 3rem;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
+}
 
 /* Leonardo */
 .Leonardo-bg {
@@ -15,6 +21,12 @@
     background-attachment: fixed;
 }
 
+.Leonardo-text{
+    color: rgb(47, 0, 255); 
+
+    font-size: 3rem;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
+}
 
 /* Michelangelo */
 .Michelangelo-bg {
@@ -24,6 +36,12 @@
     background-attachment: fixed;
 }
 
+.Michelangelo-text{
+    color: rgb(255, 124, 2); 
+
+    font-size: 3rem;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
+}
 
 /* Raphael */
 .Raphael-bg {
