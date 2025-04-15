@@ -61,7 +61,7 @@
 
 /* Homepage */
 .Main-bg {
-    background-image: url('pics/Homepage-bg.jpg');
+    background-color: #68a66a;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
