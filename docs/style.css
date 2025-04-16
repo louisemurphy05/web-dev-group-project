@@ -4,13 +4,34 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding-top: 125px;
 } 
 
-.Donatello-text{
-    color: rgb(72, 28, 122); 
+.Donatello-text {
     font-family: 'Bungee Inline';
     font-size: 3rem;
-    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
+    color: rgb(38, 6, 52); 
+    text-shadow: 3px 3px 0px rgba(132, 40, 171, 0.873), -1px -1px 0px rgba(183, 79, 206, 0.8); 
+}
+
+.container-1 h4 {
+    color: rgb(46, 8, 63); 
+    font-family: 'Iceland'; 
+    font-weight: 900;
+    font-size: 230%;
+    text-shadow: 2px 2px 0px rgba(139, 68, 187, 0.873),  -1px -1px 0px rgba(112, 24, 146, 0.8); 
+    text-align: center;
+}
+
+.container-1 p {
+    font-family: 'Iceland';
+    color: rgb(255, 255, 255);
+    font-weight: 550;
+    font-size: 130%;
+    text-shadow: 2px 1px 0px rgba(5, 78, 16, 0.873);
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 /* Leonardo */
@@ -21,7 +42,7 @@
     background-attachment: fixed;
 }
 
-.Leonardo-text{
+.Leonardo-text {
     color: rgb(47, 0, 255); 
     /* Font family goes here */
     font-size: 3rem;
@@ -36,7 +57,7 @@
     background-attachment: fixed;
 }
 
-.Michelangelo-text{
+.Michelangelo-text {
     color: rgb(255, 124, 2); 
     font-family: 'lacquer';
     font-weight: 400;
@@ -53,7 +74,7 @@
     background-attachment: fixed;
 }
 
-.Raphael-text{
+.Raphael-text {
     color: rgb(159, 15, 15); 
     font-family: 'Metal Mania'; 
     font-size: 3rem;
@@ -71,7 +92,8 @@
 
 .Navbar-text {
     font-family: 'Bungee Spice'; 
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
     text-align: center;
+    font-weight: 300;
 }
