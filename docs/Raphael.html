@@ -3,7 +3,7 @@
 
     <head>
         <meta charset = "UTF-8">
-        <meta name = "viewport" content = "width-device-width, initial scale = 1.0">
+        <meta name = "viewport" content = "width=device-width, initial scale = 1.0">
 
         <title>Raphael</title>
 
@@ -27,27 +27,32 @@
         
         <!-- nav-bar -->
         <nav class="navbar navbar-expand-lg fixed-top" style = "background-color: #0E1618;">
-            <form class="container-fluid justify-content-center">
-                <a class="navbar-brand" href="index.html">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+
+                <!-- leftside -->
+                <div class="d-flex align-items-center flex-grow-1">
+                    <!-- logo -->
+                <a class="navbar-brand me-2" href="index.html">
                     <img src="./pics/TMNTLogo-small.jpg" alt="Bootstrap" width="150" style="text-align: left;">
                 </a>
                 
+                <!-- toggle button -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html" style="color: #25FA0A; text-align: center; font-family: redonda-condensed, sans-serif; font-style: normal; font-weight: 900;">
+                    <ul class="navbar-nav d-flex flex-row li.nav-item.dropdown">
+                        <li class="nav-item me-3">
+                            <a class="nav-link active" aria-current="page" href="index.html" style="color: #25FA0A; text-align: center; font-family: redonda-condensed, sans-serif; font-style: normal; font-weight: 900; padding-left: 8px;">
                                 Home
                             </a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown position-relative">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #25FA0A; text-align: center; font-family: redonda-condensed, sans-serif; font-style: normal; font-weight: 900;">
                                 Turtles!
                             </a>
-                            <ul class="dropdown-menu" style= "background-color: #0E1618">
+                            <ul class="dropdown-menu dropdown-menu-end mt-2" style= "background-color: #0E1618; position: absolute; left:0;">
                                 <li>
                                     <a class="dropdown-item" href="Donatello.html" style="color: #25FA0A; text-align: center; font-family: redonda-condensed, sans-serif; font-style: normal; font-weight: 900;">
                                         Donatello
@@ -72,13 +77,14 @@
                         </li>
                     </ul>
                 </div>
-               
-            </form>
-           
+                </div>
+                
             <!-- Turtle Sticker -->
             <a class="d-flex align-items-center" style="width:150px;">
-                <img src="pics/RaphaelFace.png" alt="Bootstrap" style="text-align: right; width:100%; object-fit: contain; padding-right: 20px;">
+                <img src="pics/RaphaelFace.png" alt="Bootstrap" style=" width:100%; object-fit: contain; padding-left: 15px; padding-right: 20px;">
             </a>
+        </div>
+           
 
         </nav>
         
@@ -102,8 +108,8 @@
         <div class = "container">
             <div class = "row">
                 <!-- First container -->
-                <div class = "col-md-4 p-3">
-                    <div class="rounded" style="height: 500px; background-color: rgba(100, 138, 97, 0.5); border: 4px solid rgb(144, 12, 12);">
+                <div class = "col-12 col-md-4 p-3">
+                    <div class="rounded" style="background-color: rgba(100, 138, 97, 0.5); border: 4px solid rgb(144, 12, 12);">
                         <h4 class = "text-center" style = "color: rgb(205, 22, 22);text-shadow: 1.5px 1.5px 0px black; font-family: 'Metal Mania'; font-weight: 300;">Character Info</h4>  
 
                         <!-- Makes use of shadow to make white less blunt -->
@@ -124,15 +130,15 @@
                 
                 <!-- Image -->
 
-                <div class = "col-md-4 p-3">
-                    <div class = "rounded" style = "height: 500px; background-color: rgba(100, 138, 97, 0.5); border: 5px solid rgb(159,15,15);">
+                <div class = "col-12 col-md-4 p-3">
+                    <div class = "rounded" style = "height: 510px; background-color: rgba(100, 138, 97, 0.5); border: 5px solid rgb(159,15,15);">
                         <img src="pics/Raphael_Kneeling.jpg" alt="Raphael Image" class="img-fluid mx-auto d-block" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                 </div>
 
                 <!-- Weapon Choice container -->
-                <div class = "col-md-4 p-3">
-                    <div class="rounded" style="height: 500px; background-color: rgba(100, 138, 97, 0.5); border: 4px solid rgb(144, 12, 12);">
+                <div class = "col-12 col-md-4 p-3">
+                    <div class="rounded" style="background-color: rgba(100, 138, 97, 0.5); border: 4px solid rgb(144, 12, 12);">
                         <h4 class = "text-center" style = "color: rgb(205, 22, 22);text-shadow: 1.5px 1.5px 0px black; font-family: 'Metal Mania'; font-weight: 300;">Weapon Choice</h4> 
                         <p class = "text-left" style = "color: #d8e2d6;text-shadow: 1px 1px 0px black; font-weight: 600;  padding-left: 10px; padding-right: 10px;">
                             Raphael uses the <span style="font-weight: bold;">Sai</span> as his main weapon of choice. Given to him by <span style="font-weight:bold;">Master Splinter</span>, Raphael uses a pair of sais to fight his enemies and defend his brothers.
@@ -143,7 +149,7 @@
                           </p>
   
                           <p class = "text-left" style = "color: #d8e2d6;text-shadow: 1px 1px 0px black; font-weight: 600;  padding-left: 10px; padding-right: 10px;">
-                            These lessons are used to reframe Raphael's anger forcing him to focus on strategy as well as protecting both himself and his brothers whilst in battle. This however is not always successful as Raphael often gives into his aggression, using his sais to attack his enemies with brute force. 
+                            These lessons are used to reframe Raphael's anger forcing him to focus on strategy as well as protecting both himself and his brothers whilst in battle. This however is not always successful as Raphael often gives into his aggression, using his sais to attack his enemies with brute force.       
                           </p>
                     </div>
                 </div>
@@ -160,13 +166,13 @@
                 <!-- First container -->
                 <div class = "col-md-6 p-3">
                     <div class="rounded" style=" background-color: rgba(100, 138, 97, 0.5); border: 4px solid rgb(144, 12, 12);">
-                        <img src="pics/Raphael Image.jpg" alt="Raphael Image" class="img-fluid mx-auto d-block" style="width: 100%; height: auto;">
+                        <img src="pics/Raphael Image.jpg" alt="Raphael Image" class="img-fluid mx-auto d-block" style="width: 100%; height: 348px; object-fit:cover;">
                     </div>
                 </div>
                 <!-- Second container -->
                 <div class = "col-md-6 p-3">
                     <div class="rounded" style="background-color: rgba(100, 138, 97, 0.5); border: 4px solid rgb(144, 12, 12);">
-                        <img src="pics/Raphael_Ronin.jpg" alt="Raphael Image" class=" mx-auto d-block" style=" width: 100%; height: 348px; object-fit: cover;">
+                        <img src="pics/Raphael_Ronin.jpg" alt="Raphael Image" class="img-fluid mx-auto d-block" style=" width: 100%; height: 348px; object-fit: cover;">
                     </div>
                 </div>
             </div>
@@ -187,7 +193,7 @@
                 </div>
                 <!-- Second container -->
                 <div class = "col-md-4 p-3">
-                    <div class="rounded" style="height: 800px; background-color: rgba(100, 138, 97, 0.5); border: 4px solid rgb(144, 12, 12);">
+                    <div class="rounded" style="background-color: rgba(100, 138, 97, 0.5); border: 4px solid rgb(144, 12, 12);">
                         <h4 class = "text-center" style = "color: rgb(205, 22, 22);text-shadow: 1.5px 1.5px 0px black; font-family: 'Metal Mania'; font-weight: 300;">Relationships with the Turtles</h4> 
                         <h5 class = "text-center" style = "color: rgb(21, 39, 230);text-shadow: 1.5px 1.5px 0px black; font-family: 'Metal Mania'; font-weight: 300;">Leonardo</h6>
                             <p class = "text-left" style = "color: #d8e2d6;text-shadow: 1px 1px 0px black; font-weight: 600;  padding-left: 10px; padding-right: 10px;">
