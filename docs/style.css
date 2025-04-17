@@ -56,6 +56,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding-top: 125px;
 }
 
 .Leonardo-text {
@@ -75,6 +76,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding-top: 125px;
 }
 
 .Michelangelo-text {
@@ -96,6 +98,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding-top: 125px;
 }
 
 .Raphael-text {
