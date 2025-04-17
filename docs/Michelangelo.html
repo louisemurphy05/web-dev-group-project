@@ -15,6 +15,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
         <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel = "stylesheet">
+        <link href = "https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+        <link href = "https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poetsen+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.typekit.net/rqc6qqm.css">
         <link rel = "stylesheet" href = "style.css">
         <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
@@ -35,62 +37,61 @@
 
     <body class = "Michelangelo-bg">
         
-        <!-- nav-bar -->
-        <nav class="navbar navbar-expand fixed-top Navbar-text" style = "background-color: #0d1b0a;">
-            <div class="container-fluid">
-                <!-- TMNT sticker -->
-                <a class="navbar-brand" href="index.html">
-                    <img src="./pics/TMNTLogo-small.jpg" alt="Bootstrap" width="110" style="text-align: justify;">
-                </a>
+<!-- nav-bar -->
+<nav class="navbar navbar-expand fixed-top Navbar-text" style = "background-color: #0d1b0a;">
+    <div class="container-fluid">
+        <!-- TMNT sticker -->
+        <a class="navbar-brand" href="index.html">
+            <img src="./pics/TMNTLogo-small.jpg" alt="Bootstrap" width="110" style="text-align: justify;">
+        </a>
 
-                <!-- toggle button -->
-                <button class="navbar-toggler justify-content-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <button class="navbar-toggler justify-content-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                <div class="d-flex justify-content-center w-100 position-absolutestart-0" id="navbarNavDropdown">
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
+        <div class="d-flex justify-content-center w-100 position-absolutestart-0" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
 
-                            <!-- home button -->
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">
-                                    Home
+                    <!-- home button -->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <!-- dropdown button -->
+                    <li class="nav-item dropdown" style = "margin-left: 5px;">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #e66000;">
+                            Turtles!
+                        </a>
+                        <ul class="dropdown-menu" style= "background-color: #0d1b0a;">
+                            <li>
+                                <a class="dropdown-item" href="Donatello.html">
+                                    Donatello
                                 </a>
                             </li>
-
-                            <!-- dropdown button -->
-                            <li class="nav-item dropdown" style = "margin-left: 5px;">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #e66000; font-weight: 300;">
-                                    Turtles!
+                            <li>
+                                <a class="dropdown-item" href="Leonardo.html">
+                                    Leonardo
                                 </a>
-                                <ul class="dropdown-menu" style= "background-color: #0d1b0a;">
-                                    <li>
-                                        <a class="dropdown-item" href="Donatello.html">
-                                            Donatello
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="Leonardo.html">
-                                            Leonardo
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="Michelangelo.html">
-                                            Michelangelo
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="Raphael.html">
-                                            Raphael
-                                        </a>
-                                    </li>
-                                </ul>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="Michelangelo.html">
+                                    Michelangelo
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="Raphael.html">
+                                    Raphael
+                                </a>
                             </li>
                         </ul>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
+        </div>
+    </div>
 
              <!-- Turtle Sticker -->
              <a class="align-items-center d-md-block" style="width:125px;">
@@ -102,107 +103,110 @@
         
         <!-- title-bar -->
         <div class = "container my-4 rounded-5 p-3" style = "background-color: rgb(28, 87, 21, 0.8); border: 5px solid rgb(209, 80, 20);">
-            <h1 class = "text-center Michelangelo-text" style = "color: rgb(221, 78, 11);">Michelangelo</h1>
+            <h1 class = "text-center Michelangelo-bodytext" style = "color: rgb(221, 78, 11);">Michelangelo</h1>
         </div>
         
 
-        <!-- main content -->
-
-        <!-- container set 1 -->
-        <div class = "container">
+         <!-- Origin Container -->
+         <div class = "container">
             <div class = "row">
-
                 <!-- First container -->
-                <div class = "col-md-4 p-3">
-                    <div class = "rounded" style = "height: 500px; background-color: rgba(100, 138, 97, 0.5); border: 5px solid rgb(221, 78, 11);">
-                        <h4 class = "text-center" style = "color: black; font-family: 'Bungee Inline'; font-weight: 300;">add subheading</h4>  
-                        <p class = "text text-center" style = "color: black; font-weight: 600;">Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text </p>
+                <div class = "col-12 col-md-4 p-3">
+                    <div class="rounded" style="background-color: rgba(100, 138, 97, 0.5); border: 4px solid rgb(209, 80, 20);">
+                        <h4 class = "text-center Michelangelo-bodytext">Character Info</h4>  
+
+                        <!-- Makes use of shadow to make white less blunt -->
+                        <p class = "text-left" style = "color: #d8e2d6;text-shadow: 1px 1px 0px black; font-weight: 600;  padding-left: 10px; padding-right: 10px;">
+                            Michelangelo, nicknamed Mikey, is a superhero and one of the four main characters of the Teenage Mutant Ninja Turtles comics and all related media. Characterized as the most naturally gifted of the four brothers, Michelangelo prefers leisure to training martial arts.
+                        </p>
+
+                    </div>
+                </div>
+                
+                <!-- Image -->
+
+                <div class = "col-12 col-md-4 p-3">
+                    <div class = "rounded" style = "height: 510px; background-color: rgba(100, 138, 97, 0.5); border: 5px solid rgb(209, 80, 20);">
+                        <img src="./pics/Michelangelo2003.jpg" alt="Michelangelo Image" class="img-fluid mx-auto d-block" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                 </div>
 
-                <!-- Second container -->
-                <div class = "col-md-4 p-3">
-                    <div class = "rounded" style = "height: 500px; background-color: rgba(100, 138, 97, 0.5); border: 5px solid rgb(221, 78, 11);">
-                        <h4 class = "text-center" style = "color: black; font-family: 'Bungee Inline'; font-weight: 300;">add subheading</h4> 
-                    </div>
-                </div>
-
-                <!-- Third container -->
-                <div class = "col-md-4 p-3">
-                    <div class = "rounded" style = "height: 500px; background-color: rgba(100, 138, 97, 0.5); border: 5px solid rgb(221, 78, 11);">
-                        <h4 class = "text-center" style = "color: black; font-family: 'Bungee Inline'; font-weight: 300;">add subheading</h4> 
-                        <p class = "text text-center" style = "color: black; font-weight: 600;">Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text Add text </p>
+                <!-- Weapon Choice container -->
+                <div class = "col-12 col-md-4 p-3">
+                    <div class="rounded" style="background-color: rgba(100, 138, 97, 0.5); border: 4px solid rgb(209, 80, 20);">
+                        <h4 class = "text-center Michelangelo-bodytext">Weapon Choice</h4> 
+                        <p class = "text-left" style = "color: #d8e2d6;text-shadow: 1px 1px 0px black; font-weight: 600;  padding-left: 10px; padding-right: 10px;">
+                            His signature weapons are a single or dual nunchaku, though he has also been portrayed using other weapons, such as a grappling hook, manriki-gusari, kusarigama, tonfa, and a three-section staff
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- container set 2 -->
+        <br>
+        <br>    
+
+
+        <!-- Image containers -->
         <div class = "container">
             <div class = "row">
-
                 <!-- First container -->
                 <div class = "col-md-6 p-3">
-                    <div class = "rounded" style= " height: 300px; background-color: rgba(100, 138, 97, 0.5); border: 5px solid rgb(221, 78, 11);">
-                        <h4 class = "text-center" style = "color: black; font-family: 'Bungee Inline'; font-weight: 300;">image/video</h4>
-                        <!-- carousel 1 -->
-                        <div id = "carousel-1" class = "carousel slide h-100" data-bs-ride = "carousel">
-                            <div class = "carousel-inner h-100">
-                                <!-- image 1 -->
-
-                                <!-- image 2 -->
-
-                                <!-- image 3 -->
-                            </div>
-                        </div>
+                    <div class="rounded" style=" background-color: rgba(100, 138, 97, 0.5); border: 4px solid rgb(209, 80, 20);">
+                        <img src="./pics/MichelangeloPizza.jpg" alt="Michelangelo Image" class="img-fluid mx-auto d-block" style="width: 100%; height: 348px; object-fit:fill;">
                     </div>
                 </div>
-
                 <!-- Second container -->
                 <div class = "col-md-6 p-3">
-                    <div class = "rounded" style = "height: 300px; background-color: rgba(100, 138, 97, 0.5); border: 5px solid rgb(221, 78, 11);">
-                        <h4 class = "text-center" style = "color: black; font-family: 'Bungee Inline'; font-weight: 300;">image/video</h4>
-                        <!-- carousel 2 -->
-                        <div id = "carousel-1" class = "carousel slide h-100" data-bs-ride = "carousel">
-                            <div class = "carousel-inner h-100">
-                                <!-- image 1 -->
-
-                                <!-- image 2 -->
-
-                                <!-- image 3 -->
-                            </div>
-                        </div>
+                    <div class="rounded" style="background-color: rgba(100, 138, 97, 0.5); border: 4px solid rgb(209, 80, 20);">
+                        <img src="./pics/MichelangeloNunchucks.jpg" alt="Michelangelo Image" class="img-fluid mx-auto d-block" style=" width: 100%; height: 348px; object-fit: cover;">
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
+
+        <br>
+        <br>        
+
 
         <!-- container set 3 -->
         <div class = "container"  style = "padding-bottom: 15px;">
             <div class = "row">
-
                 <!-- First container -->
                 <div class = "col-md-4 p-3">
-                    <div class = "rounded" style = "height: 500px; background-color: rgba(100, 138, 97, 0.5); border: 5px solid rgb(221, 78, 11);">
-                        <h4 class = "text-center" style = "color: black; font-family: 'Bungee Inline'; font-weight: 300;">add subheading</h4>                    
+                    <div class="rounded" style="background-color: rgba(100, 138, 97, 0.5); border: 4px solid rgb(209, 80, 20);">
+                        <h4 class = "text-center Michelangelo-bodytext">Personality</h4>     
+                        <p class = "text-left" style = "color: #d8e2d6;text-shadow: 1px 1px 0px black; font-weight: 600;  padding-left: 10px; padding-right: 10px;">
+                            Characterized as the most naturally gifted of the four brothers, Michelangelo prefers leisure to training martial arts. The most jocular and energetic of the team, he is shown to be rather immature; he is known for his wisecracks, quick-wit, optimism, and love of skateboarding and pizza.
+                        </p>               
                     </div>
                 </div>
-
                 <!-- Second container -->
                 <div class = "col-md-4 p-3">
-                    <div class = "rounded" style = "height: 500px; background-color: rgba(100, 138, 97, 0.5); border: 5px solid rgb(221, 78, 11);">
-                        <h4 class = "text-center" style = "color: black; font-family: 'Bungee Inline'; font-weight: 300;">add subheading</h4> 
+                    <div class="rounded" style="background-color: rgba(100, 138, 97, 0.5); border: 4px solid rgb(209, 80, 20);">
+                        <h4 class = "text-center Michelangelo-bodytext">Relationships with the Turtles</h4> 
+                            <p class = "text-left" style = "color: #d8e2d6;text-shadow: 1px 1px 0px black; font-weight: 600;  padding-left: 10px; padding-right: 10px;">
+                                With All The Turtles: Mikey loves and adores his brothers and he loves his baby sister Vee, he loves to prank them, crack jokes about them, and even bug them; the typical little brother stuff. His brothers get annoyed when he acts immature, and Mikey hates it when Raph can't control his temper, Donnie acting like a Know-It-All, and Leo when he acts bossy. Despite everything, his brothers love him and are very protective of Mikey, considering he's the baby of the family. Mikey in turn is very loyal to them and is willing to do everything he can to help them and back them up. He's very close to Raph, Donnie & Vee and looks up to Leo like a parental figure.
+                            </p>
                     </div>
                 </div>
-
                 <!-- Third container -->
                 <div class = "col-md-4 p-3">
-                    <div class = "rounded" style = "height: 500px; background-color: rgba(100, 138, 97, 0.5); border: 5px solid rgb(221, 78, 11);">
-                        <h4 class = "text-center" style = "color: black; font-family: 'Bungee Inline'; font-weight: 300;">add subheading</h4> 
+                    <div class="rounded" style="background-color: rgba(100, 138, 97, 0.5); border: 4px solid rgb(209, 80, 20);">
+                        <h4 class = "text-center Michelangelo-bodytext">Most Popular Rendition</h4> 
+                        <p class = "text-left" style = "color: #d8e2d6;text-shadow: 1px 1px 0px black; font-weight: 600;  padding-left: 10px; padding-right: 10px;">
+                            The most popular version of Michelangelo is from the 2003 animated series. The reason is because people love the voice acting in this version adn specifically enjoy the episode named "Grudge Match". People love this episode because Michelangelo had to 'grow up' and take his preperations for his rematch Battle Nexus fight. People also enjoy the "Reality Check" episode where Michelangelo has to fight an evil version of Splinter.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
 
         <!-- Footer -->
         <footer class = "text-white py-3" style = "background-color:  #0d1b0a;">
@@ -238,7 +242,5 @@
 
             </div>
         </footer>
-
-    </body>
 
 </html>
