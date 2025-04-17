@@ -15,6 +15,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
         <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel = "stylesheet">
+        <link href = "https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+        <link href = "https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poetsen+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.typekit.net/rqc6qqm.css">
         <link rel = "stylesheet" href = "style.css">
 
@@ -30,58 +32,67 @@
 
     <body class = "Michelangelo-bg" style = "padding-top: 150px">
         
-        <!-- nav-bar -->
-        <nav class="navbar navbar-expand-lg fixed-top" style = "background-color: #0E1618;">
-            <form class="container-fluid justify-content-center">
-                <a class="navbar-brand" href="index.html">
-                    <img src="./pics/TMNTLogo-small.jpg" alt="Bootstrap" width="150" style="text-align: justify;">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html" style="color: #25FA0A; text-align: center; font-family: redonda-condensed, sans-serif; font-style: normal; font-weight: 900;">
-                                Home
-                            </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #25FA0A; text-align: center; font-family: redonda-condensed, sans-serif; font-style: normal; font-weight: 900;">
-                                Turtles!
-                            </a>
-                            <ul class="dropdown-menu" style= "background-color: #0E1618">
-                                <li>
-                                    <a class="dropdown-item" href="Donatello.html" style="color: #25FA0A; text-align: center; font-family: redonda-condensed, sans-serif; font-style: normal; font-weight: 900;">
-                                        Donatello
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="Leonardo.html" style="color: #25FA0A; text-align: center; font-family: redonda-condensed, sans-serif; font-style: normal; font-weight: 900;">
-                                        Leonardo
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="Michelangelo.html" style="color: #25FA0A; text-align: center; font-family: redonda-condensed, sans-serif; font-style: normal; font-weight: 900;">
-                                        Michelangelo
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="Raphael.html" style="color: #25FA0A; text-align: center; font-family: redonda-condensed, sans-serif; font-style: normal; font-weight: 900;">
-                                        Raphael
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </form>
+<!-- nav-bar -->
+<nav class="navbar navbar-expand fixed-top Navbar-text" style = "background-color: #0d1b0a;">
+    <div class="container-fluid">
+        <!-- TMNT sticker -->
+        <a class="navbar-brand" href="index.html">
+            <img src="./pics/TMNTLogo-small.jpg" alt="Bootstrap" width="110" style="text-align: justify;">
+        </a>
 
-             <!-- Turtle Sticker -->
-             <a class="d-flex align-items-center d-md-block" style="width:150px;">
-                <img src="pics/MichelangeloFace.webp" alt="Bootstrap" style="text-align: right; width:100%; object-fit: contain; padding-right: 20px;">
-            </a>
-        </nav>
+        <button class="navbar-toggler justify-content-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="d-flex justify-content-center w-100 position-absolutestart-0" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+
+                    <!-- home button -->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <!-- dropdown button -->
+                    <li class="nav-item dropdown" style = "margin-left: 5px;">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #e66000;">
+                            Turtles!
+                        </a>
+                        <ul class="dropdown-menu" style= "background-color: #0d1b0a;">
+                            <li>
+                                <a class="dropdown-item" href="Donatello.html">
+                                    Donatello
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="Leonardo.html">
+                                    Leonardo
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="Michelangelo.html">
+                                    Michelangelo
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="Raphael.html">
+                                    Raphael
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+      <!-- Turtle Sticker -->
+      <a class="align-items-center d-md-block" style="width:125px;">
+        <img src="pics/MichelangeloFace.webp" alt="Bootstrap" style="text-align: right; width:100%; object-fit: contain; padding-right: 20px;">
+    </a>
+</nav>
 
         
         
