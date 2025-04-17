@@ -14,9 +14,10 @@
         <link href = "https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
         <link href = "https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poetsen+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
-
+        
         <!-- bootstrap/css -->
         <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel = "stylesheet" href = "style.css">
     </head>
@@ -26,11 +27,13 @@
         <!-- nav-bar -->
         <nav class="navbar navbar-expand fixed-top Navbar-text" style = "background-color: #0d1b0a;">
             <div class="container-fluid">
+
                 <!-- TMNT sticker -->
                 <a class="navbar-brand" href="index.html">
                     <img src="./pics/TMNTLogo-small.jpg" alt="Bootstrap" width="110" style="text-align: justify;">
                 </a>
-
+                
+                <!-- toggle button -->
                 <button class="navbar-toggler justify-content-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -48,7 +51,7 @@
 
                             <!-- dropdown button -->
                             <li class="nav-item dropdown" style = "margin-left: 5px;">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #e66000;">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #e66000; font-weight: 300;">
                                     Turtles!
                                 </a>
                                 <ul class="dropdown-menu" style= "background-color: #0d1b0a;">
@@ -88,25 +91,27 @@
 
         <!-- title-bar -->
         <div class = "container my-4 rounded p-3" style = "background-color: rgba(100, 138, 97, 0.5); border: 5px solid rgb(46, 7, 60)">
-            <h1 class = "text-center Donatello-text">Donatello</h1>
+            <h1 class = "text-center Donatello-title">Donatello</h1>
         </div>
 
 
         <!-- main content -->
 
         <!-- container set 1 -->
-        <div class = "container container-1">
+        <div class = "container">
             <div class = "row">
 
                 <!-- First container -->
                 <div class = "col-md-4 p-3">
                     <div class = "rounded" style = "height: 500px; background-color: rgba(100, 138, 97, 0.5); border: 5px solid rgb(46, 7, 60);">
-                        <h4>Character Information</h4>  
-                        <p>Donatello, nicknamed "Donnie," is the most inteligent of the Teenage Mutant Ninja Turtles. 
+                        <h4 class = "Donatello-subheading">Character Information</h4>  
+                        <p class = "Donatello-text">
+                            Donatello, nicknamed "Donnie," is the most inteligent of the Teenage Mutant Ninja Turtles. 
                             With his scientific mind, he excels in engineering, technology, and problem-solving, often crafting gadgets to aid his brothers. 
                             Though highly logical, he can be socially awkward, sometimes overcomplicating explanations or missing social cues. Despite his reserved nature, 
                             Donnie is deeply loyal to his family, and uses his intelligence to protect them. 
-                            Donatello is also known for wearing purple and fighting with bō staff.</p>
+                            Donatello is also known for wearing purple and fighting with a bō staff as well as having an abundance of high-tech gadgets to help him and his brothers.
+                        </p>
                     </div>
                 </div>
 
@@ -140,6 +145,7 @@
                                 <span class = "carousel-control-next-icon" aria-hidden = "true"></span>
                                 <span class = "visually-hidden">Next</span>
                             </button>
+
                         </div>
                     </div>
                 </div>
@@ -147,96 +153,131 @@
                 <!-- Third container -->
                 <div class = "col-md-4 p-3">
                     <div class = "rounded" style = "height: 500px; background-color: rgba(100, 138, 97, 0.5); border: 5px solid rgb(46, 7, 60);">
-                        <h4>Weapon Choice</h4> 
-                        <p>Donatello weilds the bō staff, a weapon that suits his tactical and analytical style. He prefers precision over raw power so
-                        using the staff allows him to create space and control fights with calculated strikes and expert defense so this weapon perfectly suits his personality. 
-                        Ever the inventor, he sometimes upgrades it with tech like extendable segments or shock capabilities.
-                        Though less flashy than his brothers' weapons, the bō reflects Donnie's smart, adaptable approach to combat.</p>
+                        <h4 class = "Donatello-subheading">Character History</h4> 
+                        <p class = "Donatello-text">
+                            Donatello was created by Kevin Eastman and Peter Laird in 1984 as one of four brothers mutated by radioactive ooze from New York sewers. 
+                            Trained in ninjutsu by their rat sensei, Splinter, Donatello became the teams tech expert, wielding a bō staff and crafting gadgets. 
+                            His character evolved across adaptations, from the gritty 1984 comics to lighter animated series like the 1987 show
+                            and the 2012 reboot. Later versions, such as Rise of the TMNT (2018) and Mutant Mayhem (2023),
+                            further highlighted his tech skills with advanced visors and hacking abilities, solidifying his role as the intellectual backbone.
+                        </p>
                     </div>
                 </div>
+
             </div>
         </div>
 
-
+        
         <!-- container set 2 -->
-        <div class = "container container-1">
-            <div class = "row">
-
-                <!-- First container -->
-                <div class = "col-md-6 p-3">
-                    <div class = "rounded" style= " height: 300px; background-color: rgba(100, 138, 97, 0.5); border: 5px solid rgb(46, 7, 60);">
-                        <h4 class = "text-center">image/video</h4>
-                        <!-- carousel 1 -->
-                        <div id = "carousel-1" class = "carousel slide h-100" data-bs-ride = "carousel">
-                            <div class = "carousel-inner h-100">
-                                <!-- image 1 -->
-
-                                <!-- image 2 -->
-
-                                <!-- image 3 -->
-                            </div>
-                        </div>
-                    </div>
+        <div class = "row row-cols-1 row-cols-md-3 g-5 justify-content-center Donatello-cards" Style = "padding: 15px;">
+            
+            <!-- first card -->
+            <div class = "col-md-5">
+                <div class = "card">
+                <img src = "pics/Donatello-headgear.gif" class = "pic">
+                <div class = "card-body">
+                    <h5 class = "Donatello-subheading">Donatello's Headgear</h5>
+                    <p class = "Donatello-text">
+                        To align with Donatello's nerdy nature he is often depicted wearing some broken glasses
+                        and some high-tech headgear. This was especially prevelent in the live action adaptation of the Teenage 
+                        Mutant Nija Turtles, released in 2014, where donatello uses his knowledge of tech and equipment to give him 
+                        and his brothers the advantage through the enhanced vision and communication his headgear allows.
+                    </p>
                 </div>
-
-                <!-- Second container -->
-                <div class = "col-md-6 p-3">
-                    <div class = "rounded" style = "height: 300px; background-color: rgba(100, 138, 97, 0.5); border: 5px solid rgb(46, 7, 60);">
-                        <h4 class = "text-center">image/video</h4>
-                        <!-- carousel 2 -->
-                        <div id = "carousel-1" class = "carousel slide h-100" data-bs-ride = "carousel">
-                            <div class = "carousel-inner h-100">
-                                <!-- image 1 -->
-
-                                <!-- image 2 -->
-
-                                <!-- image 3 -->
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
-        </div> 
+
+            <!-- second card -->
+            <div class = "col-md-5">
+                <div class = "card">
+                <img src = "pics/Donatello-weapon.gif" class = "pic">
+                <div class = "card-body">
+                    <h5 class = "Donatello-subheading">Donnatello's Weapon</h5>
+                    <p class = "Donatello-text">
+                        Donatello weilds the bō staff, a weapon that suits his tactical and analytical style. He prefers precision over raw power so
+                        using the staff allows him to create space and control fights with calculated strikes and expert defense. 
+                        Ever the inventor, he sometimes upgrades it with tech like extendable segments or shock capabilities.
+                        Though less flashy than his brothers' weapons, the bō perfectly reflects his approach to combat.
+                    </p>
+                </div>
+                </div>
+            </div>
+
+        </div>
 
 
         <!-- container set 3 -->
-        <div class = "container container-1">
+        <div class = "container"  style = "padding-bottom: 15px;">
             <div class = "row">
 
                 <!-- First container -->
                 <div class = "col-md-4 p-3">
                     <div class = "rounded" style = "height: 500px; background-color: rgba(100, 138, 97, 0.5); border: 5px solid rgb(46, 7, 60);">
-                        <h4 class = "text-center">add subheading</h4>                    
+                        <h4 class = "Donatello-subheading">Comic History</h4>   
+                        <p class = "Donatello-text">
+                            add text
+                        </p>
                     </div>
                 </div>
 
                 <!-- Second container -->
                 <div class = "col-md-4 p-3">
                     <div class = "rounded" style = "height: 500px; background-color: rgba(100, 138, 97, 0.5); border: 5px solid rgb(46, 7, 60);">
-                        <h4 class = "text-center">add subheading</h4> 
+                        <h4 class = "Donatello-subheading">Donatello's family</h4> 
+                        <p class = "Donatello-text">
+                            add text
+                        </p>
                     </div>
                 </div>
 
                 <!-- Third container -->
                 <div class = "col-md-4 p-3">
                     <div class = "rounded" style = "height: 500px; background-color: rgba(100, 138, 97, 0.5); border: 5px solid rgb(46, 7, 60);">
-                        <h4 class = "text-center">add subheading</h4> 
+                        <h4 class = "Donatello-subheading">TV history</h4> 
+                        <p class = "Donatello-text">
+                            add text
+                        </p>
                     </div>
                 </div>
+
             </div>
         </div>
 
-
-        <!-- footer -->
-        <footer class = "text-white py-4" style = "background-color: #0d1b0a;">
+        <!-- Footer -->
+        <footer class = "text-white py-3" style = "background-color:  #0d1b0a;">
             <div class = "container">
-                <hr class = "my-2">
-                <div class = "text-center">
-                    <small>&copy; 2025 <span style = " font-family:Space Grotesk; font-weight: 75px;">TMNT</span> - All rights reserved.</small>
+
+                <!-- wikipedia link -->
+                <div class = "row justify-content-around">
+                    <div class = "col-auto text-center mb-3 mb-md-0">
+                        <h6 class = "Navbar-text">More Info</h6>
+                        <div>   
+                            <a href = "https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles" target = "_blank" class = "text-decoration-underline Donatello-text">
+                                @TMNT Wikipedia Page
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- social media links -->
+                    <div class = "col-auto">
+                        <h6 class = "Navbar-text">Connect</h6>
+                        <div class = "d-flex gap-3 justify-content-center">
+                            <a href = "#" class="text-white"><i class = "bi bi-facebook"></i></a>
+                            <a href = "#" class="text-white"><i class = "bi bi-twitter"></i></a>
+                            <a href = "#" class="text-white"><i class = "bi bi-instagram"></i></a>
+                            <a href = "#" class="text-white"><i class = "bi bi-youtube"></i></a>
+                        </div>
+                    </div>
                 </div>
+
+                <hr class = "my-3">
+                <div class = "text-center">
+                    <small>&copy; 2025 <span style="font-family:'Space Grotesk', sans-serif; font-weight: bold;">TEENAGE MUTANT NINJA TURTLES</span> - All rights reserved.</small>
+                </div>
+
             </div>
-         </footer>
-         
+        </footer>
+                
     </body>
 
 </html>

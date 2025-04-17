@@ -8,30 +8,42 @@
 } 
 
 .Donatello-text {
+    font-family: 'Iceland';
+    color: rgb(255, 255, 255);
+    font-weight: 550;
+    font-size: 130%;
+    text-shadow: 2px 1px 0px rgba(5, 50, 11, 0.873);
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Donatello-title {
     font-family: 'Bungee Inline';
     font-size: 3rem;
     color: rgb(38, 6, 52); 
     text-shadow: 3px 3px 0px rgba(132, 40, 171, 0.873), -1px -1px 0px rgba(183, 79, 206, 0.8); 
 }
 
-.container-1 h4 {
+.Donatello-subheading {
     color: rgb(46, 8, 63); 
     font-family: 'Iceland'; 
-    font-weight: 900;
+    font-weight: 700;
     font-size: 230%;
     text-shadow: 2px 2px 0px rgba(139, 68, 187, 0.873),  -1px -1px 0px rgba(112, 24, 146, 0.8); 
     text-align: center;
+    text-decoration: underline;
 }
 
-.container-1 p {
-    font-family: 'Iceland';
-    color: rgb(255, 255, 255);
-    font-weight: 550;
-    font-size: 130%;
-    text-shadow: 2px 1px 0px rgba(5, 78, 16, 0.873);
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
+.Donatello-cards .card {
+    background-color: rgba(100, 138, 97, 0.5); 
+    border: 5px solid rgb(46, 7, 60);
+}
+
+.Donatello-cards .card .pic {
+    border-bottom: 5px solid rgb(46, 7, 60); 
+    width: 100%; 
+    height: 270px;
 }
 
 /* Leonardo */
@@ -40,6 +52,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding-top: 125px;
 }
 
 .Leonardo-text {
@@ -49,12 +62,14 @@
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
 }
 
+
 /* Michelangelo */
 .Michelangelo-bg {
     background-image: url('pics/Michelangelo-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding-top: 125px;
 }
 
 .Michelangelo-text {
@@ -81,6 +96,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding-top: 125px;
 }
 
 .Raphael-text {
@@ -90,19 +106,40 @@
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
 }
 
-
 /* Homepage */
 .Main-bg {
     background-color: #68a66a;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding-top: 175px;
 }
 
+.container-main p {
+    /* fill in how you want */
+    font-family: '';
+    color: black;
+    text-shadow:(); 
+    text-align: center;
+}
+
+.container-main h4 {
+    /* fill in how you want */
+    font-family: '';
+    color: black;
+    text-shadow:();
+    text-align: center;
+}
+
+/* Multipage */
 .Navbar-text {
     font-family: 'Bungee Spice'; 
     font-size: 2rem;
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
     text-align: center;
     font-weight: 300;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #e66000 !important;
 }

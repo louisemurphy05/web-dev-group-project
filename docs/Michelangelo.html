@@ -19,6 +19,11 @@
         <link href = "https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poetsen+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.typekit.net/rqc6qqm.css">
         <link rel = "stylesheet" href = "style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+
+        <link href = "https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+        <link href = "https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poetsen+One&display=swap" rel="stylesheet">
 
         <!-- These two links keep the "Turtles!" dropdown working, im not sure which-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -30,7 +35,7 @@
 
     </head>
 
-    <body class = "Michelangelo-bg" style = "padding-top: 150px">
+    <body class = "Michelangelo-bg">
         
 <!-- nav-bar -->
 <nav class="navbar navbar-expand fixed-top Navbar-text" style = "background-color: #0d1b0a;">
@@ -88,11 +93,11 @@
         </div>
     </div>
 
-      <!-- Turtle Sticker -->
-      <a class="align-items-center d-md-block" style="width:125px;">
-        <img src="pics/MichelangeloFace.webp" alt="Bootstrap" style="text-align: right; width:100%; object-fit: contain; padding-right: 20px;">
-    </a>
-</nav>
+             <!-- Turtle Sticker -->
+             <a class="align-items-center d-md-block" style="width:125px;">
+                <img src="pics/MichelangeloFace.webp" alt="Bootstrap" style="text-align: right; width:100%; object-fit: contain; padding-right: 20px;">
+            </a>
+        </nav>
 
         
         
@@ -165,7 +170,7 @@
 
 
         <!-- container set 3 -->
-        <div class = "container">
+        <div class = "container"  style = "padding-bottom: 15px;">
             <div class = "row">
                 <!-- First container -->
                 <div class = "col-md-4 p-3">
@@ -203,14 +208,39 @@
         <br>
 
 
-        <!-- footer -->
-         <footer class="bg-dark text-white py-4">
-            <div class="container">
-                <hr class="my-4">
-                <div class="text-center">
-                    <small>&copy; 2025 <span style=" font-family:Space Grotesk; font-weight: 75px;">TMNT</span> - All rights reserved.</small>
+        <!-- Footer -->
+        <footer class = "text-white py-3" style = "background-color:  #0d1b0a;">
+            <div class = "container">
+
+                <!-- wikipedia link -->
+                <div class = "row justify-content-around">
+                    <div class = "col-auto text-center mb-3 mb-md-0">
+                        <h6 class = "Navbar-text">More Info</h6>
+                        <div>   
+                            <a href = "https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles" target = "_blank" class = "text-decoration-underline" style = "font-family: 'lacquer'; color: white;">
+                                @TMNT Wikipedia Page
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- social media links -->
+                    <div class = "col-auto">
+                        <h6 class = "Navbar-text">Connect</h6>
+                        <div class = "d-flex gap-3 justify-content-center">
+                            <a href = "#" class="text-white"><i class = "bi bi-facebook"></i></a>
+                            <a href = "#" class="text-white"><i class = "bi bi-twitter"></i></a>
+                            <a href = "#" class="text-white"><i class = "bi bi-instagram"></i></a>
+                            <a href = "#" class="text-white"><i class = "bi bi-youtube"></i></a>
+                        </div>
+                    </div>
                 </div>
+
+                <hr class = "my-3">
+                <div class = "text-center">
+                    <small>&copy; 2025 <span style="font-family:'Space Grotesk', sans-serif; font-weight: bold;">TEENAGE MUTANT NINJA TURTLES</span> - All rights reserved.</small>
+                </div>
+
             </div>
-         </footer>
+        </footer>
 
 </html>
