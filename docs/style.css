@@ -81,6 +81,15 @@
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
 }
 
+.Michelangelo-bodytext {
+    color: rgb(255, 124, 2); 
+    font-family: 'lacquer';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
+}
+
 /* Raphael */
 .Raphael-bg {
     background-image: url('pics/Raphael-bg.jpg');
