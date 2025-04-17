@@ -106,6 +106,22 @@
     padding-top: 175px;
 }
 
+.container-main p {
+    /* fill in how you want */
+    font-family: '';
+    color: black;
+    text-shadow:(); 
+    text-align: center;
+}
+
+.container-main h4 {
+    /* fill in how you want */
+    font-family: '';
+    color: black;
+    text-shadow:();
+    text-align: center;
+}
+
 /* Multipage */
 .Navbar-text {
     font-family: 'Bungee Spice'; 
