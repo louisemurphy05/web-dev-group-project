@@ -46,10 +46,6 @@
     height: 270px;
 }
 
-.dropdown-menu .dropdown-item:hover {
-    background-color: #e66000 !important;
-}
-
 /* Leonardo */
 .Leonardo-bg {
     background-image: url('pics/Leonardo-bg.jpg');
@@ -66,9 +62,6 @@
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
 }
 
-.dropdown-menu .dropdown-item:hover {
-    background-color: #e66000 !important;
-}
 
 /* Michelangelo */
 .Michelangelo-bg {
@@ -88,10 +81,6 @@
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
 }
 
-.dropdown-menu .dropdown-item:hover {
-    background-color: #e66000 !important;
-}
-
 /* Raphael */
 .Raphael-bg {
     background-image: url('pics/Raphael-bg.jpg');
@@ -108,19 +97,32 @@
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
 }
 
-.dropdown-menu .dropdown-item:hover {
-    background-color: #e66000 !important;
-}
-
-
 /* Homepage */
 .Main-bg {
     background-color: #68a66a;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding-top: 175px;
 }
 
+.container-main p {
+    /* fill in how you want */
+    font-family: '';
+    color: black;
+    text-shadow:(); 
+    text-align: center;
+}
+
+.container-main h4 {
+    /* fill in how you want */
+    font-family: '';
+    color: black;
+    text-shadow:();
+    text-align: center;
+}
+
+/* Multipage */
 .Navbar-text {
     font-family: 'Bungee Spice'; 
     font-size: 2rem;
