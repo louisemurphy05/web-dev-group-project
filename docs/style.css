@@ -148,11 +148,35 @@
     padding-top: 125px;
 }
 
-.Raphael-text {
-    color: rgb(159, 15, 15); 
+.Raphael-style{
+    background-color: rgba(100, 138, 97, 0.5);
+    border: 4px solid rgb(144, 12, 12);
+}
+
+.Raphael-text{
+    color: #d8e2d6;
+    text-shadow: 1px 1px 0px black; 
+    text-align: left; 
+    font-weight: 600;  
+    padding-left: 10px; 
+    padding-right: 10px;
+}
+
+.Raphael-subheading{
+    color: rgb(205, 22, 22);
+    text-shadow: 1.5px 1.5px 0px black; 
+    text-align: center; 
     font-family: 'Metal Mania'; 
-    font-size: 3rem;
-    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
+    font-weight: 300;
+}
+
+.Raphael-quotes{
+    color: #d8e2d6;
+    text-shadow: 1px 1px 0px black;
+     font-weight: 600; 
+     text-align: left; 
+     padding-left: 10px; 
+     padding-right: 10px;
 }
 
 .Raphael-title {
