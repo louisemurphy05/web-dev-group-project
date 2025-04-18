@@ -158,8 +158,8 @@
 .Raphael-title {
     font-family: 'Metal Mania';
     font-size: 3rem;
-    color: rgb(159, 15, 15); 
-    text-shadow: 3px 3px 0px rgba(97, 12, 12, 0.719), -1px -1px 0px rgba(124, 6, 6, 0.8); 
+    color: rgb(205,22,22); 
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.719), -1px -1px 0px rgba(0, 0, 0, 0.8);
 }
 
 .Raphael-title-bar {
