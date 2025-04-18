@@ -5,6 +5,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding-top: 125px;
+    overflow-x: hidden;
+    max-width: 160%;
 } 
 
 .Donatello-text {
