@@ -208,6 +208,30 @@
     font-family: Jura;
 }
 
+.main-accordion {
+    position: relative;
+    z-index: 2; 
+}
+
+.main-accordion .accordion-collapse {
+    position: absolute; 
+    width: 100%;
+}
+
+.main-accordion .accordion-button {
+    background-color: rgb(5, 47, 7);
+    color: rgb(40, 189, 37);
+    text-shadow: 2px 2px 0px rgba(4, 28, 6, 0.8), -2px -1px 0px rgb(0, 0, 0);
+    font-family: 'Jura';
+    font-size: 80%;
+}
+
+.main-accordion .accordion-body {
+    background-color:  rgb(41, 118, 29);
+    position: relative;
+    z-index: 20;
+}
+
 #Comic h4 {
 
     font-family: 'chewy';
