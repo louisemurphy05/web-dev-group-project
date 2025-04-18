@@ -173,7 +173,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding-top: 175px;
+    padding-top: 155px;
 }
 
 .container-main p {
@@ -199,6 +199,13 @@
     font-weight: bolder;
     color: rgb(255, 255, 255);
     text-shadow: 2px -1px 0.5px rgba(2, 30, 6, 0.692);
+}
+
+.blockquote-footer {
+    color: black; 
+    font-weight: 1000; 
+    font-size: medium; 
+    font-family: Jura;
 }
 
 #Doni {
