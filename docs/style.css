@@ -146,11 +146,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding-top: 175px;
+    padding-top: 150px;
 }
 
 .container-main p {
-    /* fill in how you want */
     font-family: 'Jura';
     font-weight: bolder;
     color: rgb(black);
@@ -159,11 +158,11 @@
 }
 
 .container-main h4 {
-    /* fill in how you want */
-    font-family: 'Jura';
-    font-weight: bolder;
-    color: black;
-    text-shadow:();
+    font-family: 'chewy';
+    font-weight: 300px;
+    font-size: 35px;
+    color: rgb(13, 58, 6);
+    text-shadow: -2px -1px 0px rgba(70, 167, 35, 0.8);
     text-align: center;
 }
 
@@ -175,19 +174,6 @@
     text-shadow:();
     text-align: left;
     padding-left: 100px;
-}
-
-/* Multipage */
-.Navbar-text {
-    font-family: 'Bungee Spice'; 
-    font-size: 2rem;
-    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
-    text-align: center;
-    font-weight: 300;
-}
-
-.dropdown-menu .dropdown-item:hover {
-    background-color: #e66000 !important;
 }
 
 #Doni {
@@ -208,4 +194,17 @@
 #Raph {
     border: 1px solid rgb(144, 12, 12); 
     background-color: rgba(144, 12, 12); 
+}
+
+/* Multipage */
+.Navbar-text {
+    font-family: 'Bungee Spice'; 
+    font-size: 2rem;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
+    text-align: center;
+    font-weight: 300;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #e66000 !important;
 }
