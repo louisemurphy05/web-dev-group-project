@@ -142,7 +142,7 @@
 
 /* Homepage */
 .Main-bg {
-    background-color: #68a66a;
+    background-image: url('pics/Homepage-bg.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -151,18 +151,30 @@
 
 .container-main p {
     /* fill in how you want */
-    font-family: '';
-    color: black;
-    text-shadow:(); 
+    font-family: 'Jura';
+    font-weight: bolder;
+    color: rgb(black);
+    text-shadow:(black, 1px 1px 0px); 
     text-align: center;
 }
 
 .container-main h4 {
     /* fill in how you want */
-    font-family: '';
+    font-family: 'Jura';
+    font-weight: bolder;
     color: black;
     text-shadow:();
     text-align: center;
+}
+
+.container ul {
+    /* fill in how you want */
+    font-family: 'Jura';
+    font-weight: bolder;
+    color: black;
+    text-shadow:();
+    text-align: left;
+    padding-left: 100px;
 }
 
 /* Multipage */
@@ -176,4 +188,24 @@
 
 .dropdown-menu .dropdown-item:hover {
     background-color: #e66000 !important;
+}
+
+#Doni {
+    border: 1px solid rgb(46, 7, 60); 
+    background-color: rgba(46, 7, 60); 
+}
+
+#Leo {
+    border: 1px solid rgb(35, 48, 190);
+    background-color: rgba(35, 48, 190); 
+}
+
+#Mikey {
+    border: 1px solid rgb(209, 80, 20); 
+    background-color: rgba(209, 80, 20); 
+}
+
+#Raph {
+    border: 1px solid rgb(144, 12, 12); 
+    background-color: rgba(144, 12, 12); 
 }
