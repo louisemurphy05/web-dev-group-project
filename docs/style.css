@@ -186,7 +186,7 @@
 
 .container-main h4 {
     font-family: 'chewy';
-    font-weight: 300px;
+    font-weight: 200px;
     font-size: 35px;
     color: rgb(11, 46, 6);
     text-shadow: -1px -1px 0px rgba(70, 167, 35, 0.8), 2px -1px 0.5px rgba(0, 0, 0, 0.8);
@@ -199,6 +199,15 @@
     font-weight: bolder;
     color: rgb(255, 255, 255);
     text-shadow: 2px -1px 0.5px rgba(2, 30, 6, 0.692);
+}
+
+.container-main-1 {
+    font-family: 'chewy';
+    font-weight: 200px;
+    color: rgb(6, 27, 3);
+    text-shadow: -1px -1px 0px rgba(70, 167, 35, 0.8), 2px 1px 0.5px rgba(45, 107, 28, 0.8);
+    text-align: center;
+    text-decoration: underline;
 }
 
 .blockquote-footer {
