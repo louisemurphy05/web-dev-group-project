@@ -98,6 +98,17 @@
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
 }
 
+.Leonardo-title {
+    font-family: 'Bungee Inline';
+    font-size: 3rem;
+    color: rgb(38, 6, 52); 
+    text-shadow: 3px 3px 0px rgba(47, 0, 255, 0.873), -1px -1px 0px rgba(56, 22, 211, 0.8); 
+}
+
+.Leonardo-title-bar {
+    background-color: rgba(100, 138, 97, 0.5); 
+    border: 5px solid rgb(47, 0, 255)
+}
 
 /* Michelangelo */
 .Michelangelo-bg {
@@ -115,6 +126,18 @@
     font-style: normal;
     font-size: 3rem;
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
+}
+
+.Michelangelo-title {
+    font-family: 'lacquer';
+    font-size: 3rem;
+    color: rgb(255, 124, 2); 
+    text-shadow: 3px 3px 0px rgba(255, 124, 2, 0.719), -1px -1px 0px rgba(201, 108, 22, 0.8); 
+}
+
+.Michelangelo-title-bar {
+    background-color: rgba(100, 138, 97, 0.5); 
+    border: 5px solid rgb(255, 124, 2)
 }
 
 .Michelangelo-bodytext {
@@ -140,6 +163,18 @@
     font-family: 'Metal Mania'; 
     font-size: 3rem;
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
+}
+
+.Raphael-title {
+    font-family: 'Metal Mania';
+    font-size: 3rem;
+    color: rgb(159, 15, 15); 
+    text-shadow: 3px 3px 0px rgba(97, 12, 12, 0.719), -1px -1px 0px rgba(124, 6, 6, 0.8); 
+}
+
+.Raphael-title-bar {
+    background-color: rgba(100, 138, 97, 0.5); 
+    border: 5px solid rgb(159, 15, 15)
 }
 
 /* Homepage */
