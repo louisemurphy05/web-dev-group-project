@@ -81,24 +81,64 @@
     padding-top: 125px;
 }
 
-.Leonardo-text {
-    color: rgb(47, 0, 255); 
-    /* Font family goes here */
-    font-size: 3rem;
+.Leonardo-subheading {
+    color: rgb(27, 82, 192); 
     text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.8), -1px -1px 0px rgba(0, 0, 0, 0.8); 
+    text-align: center;
+    font-family: 'Bungee InLine';
+    font-weight: 300;
+}
+
+.Leonardo-text {
+    color: #d8e2d6;
+    font-weight: 550;
+    text-shadow: 2px 1px 0px rgba(5, 50, 11, 0.873);
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Leonardo-style {
+    background-color: rgba(100, 138, 97, 0.5); 
+    border: 5px solid rgb(27, 82, 192);
 }
 
 .Leonardo-title {
     font-family: 'Bungee Inline';
     font-size: 3rem;
-    color: rgb(38, 6, 52); 
-    text-shadow: 3px 3px 0px rgba(47, 0, 255, 0.873), -1px -1px 0px rgba(56, 22, 211, 0.8); 
+    color: rgb(27, 82, 192); 
+    text-shadow: 3px 3px 0px rgba(9, 40, 100, 0.873), -1px -1px 0px rgba(56, 22, 211, 0.8); 
 }
 
 .Leonardo-title-bar {
     background-color: rgba(100, 138, 97, 0.5); 
     border: 5px solid rgb(47, 0, 255)
 }
+
+.Leonardo-accordion {
+    position: relative;
+    z-index: 2; 
+}
+
+.Leonardo-accordion .accordion-collapse {
+    position: absolute; 
+    width: 100%;
+}
+
+.Leonardo-accordion .accordion-button {
+    background-color: rgb(27, 82, 192);
+    color: rgb(26, 18, 183);
+    text-shadow: 1px 1px 0px rgba(9, 4, 105, 0.8) ;
+    font-family: 'Secondary Font';
+    font-size: 80%;
+}
+
+.Leonardo-accordion .accordion-body {
+    background-color:  rgb(27, 82, 192);
+    position: relative;
+    z-index: 20;
+}
+
 
 /* Michelangelo */
 .Michelangelo-bg {
