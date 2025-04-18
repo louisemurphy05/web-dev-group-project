@@ -37,25 +37,15 @@
     text-decoration: underline;
 }
 
-.Donatello-cards .card {
-    background-color: rgba(100, 138, 97, 0.5); 
-    border: 5px solid rgb(46, 7, 60);
-}
-
 .Donatello-cards .card .pic {
     border-bottom: 5px solid rgb(46, 7, 60); 
     width: 100%; 
     height: 270px;
 }
 
-.Donatello-1 { 
+.Donatello-style { 
     background-color: rgba(100, 138, 97, 0.5); 
     border: 5px solid rgb(46, 7, 60);
-}
-
-.Donatello-title-bar {
-    background-color: rgba(100, 138, 97, 0.5); 
-    border: 5px solid rgb(46, 7, 60)
 }
 
 .Donatello-accordion {
